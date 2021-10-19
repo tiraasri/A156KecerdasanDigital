@@ -1,0 +1,108 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+body {
+    font-family: "lucida Grands";
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.clear {
+    clear: left;
+}
+.container {
+    max-width: 1170px;
+    height: 280px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.top-wrapper {
+    padding: 210px 0 100px 0;
+    background-image: url(background_image.png);
+    background-size: cover;
+    color: white;
+    text-align: center;  
+}
+
+.top-wrapper h1{
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.top-wrapper p {
+    margin-bottom: 3px;
+    letter-spacing: 2px;
+    font-size: 40px;
+
+}
+.btn-wrapper {
+    margin: 10px 0;
+}
+.order {
+    background-color: red;
+    margin-top: 100px;
+}
+.btn {
+    opacity: 0.8;
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    border-radius: 4px;
+}
+.btn:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+.btn:hover {
+    opacity: 1;
+    padding: 10px 24px;
+}
+header{
+    width: 100%;
+    height: 65px;
+    background-color: saddlebrown;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    float: left;
+}
+.logo {
+    font-family: 'ar decode';
+    font-size: 40px;
+    line-height: 65px;
+    color: white;
+    font-style: bold;
+}
+.header-left {
+    float: left;
+}
+.header-right {
+    float: right;
+    transition: all 0.5s;
+
+}
+.header-right a:hover {
+    color: orange;
+}
+.header-right a {
+    float: left;
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+}
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    
+    display: none;
+  }
