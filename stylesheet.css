@@ -105,3 +105,42 @@ header{
     
     display: none;
   }
+
+/* Tentang Section */
+.content_tentang {
+    width: 100%;
+    height: auto;
+    background-color: #fff5f0;
+    padding: 50px 0px;
+    margin: auto;
+    text-align: center;
+}
+.content_tentang img {
+    border-radius: 50%;
+    width: 20%;
+    margin: auto;
+}
+.content_tentang .deskripsi_Tentang {
+    background-color: #8b4513;
+    width: 50%;
+    padding: 20px 15px;
+    margin: auto;
+    border-radius: 10px;
+}
+.content_tentang .deskripsi_Tentang h3 {
+    color: #341612;
+    font-family: "comic sans ms";
+    padding: 10px 0px;
+    border-bottom: 2px solid #341612;
+}
+.content_tentang .deskripsi_Tentang h4 {
+    color: #fff5f0;
+    padding: 10px;
+}
+.content_tentang .deskripsi_Tentang p {
+    text-align: justify;
+    text-indent: 30px;
+    color: #fff5f0;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
