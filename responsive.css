@@ -1,8 +1,28 @@
 @media (max-width: 1000px) {
-
+    .header-right a{
+    padding-right: 15px;
+  }
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
 }
 
 @media (max-width: 670px) {
+    .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
     /* Tentang Section */
     .content_tentang .deskripsi_Tentang {
         width: 90%;
