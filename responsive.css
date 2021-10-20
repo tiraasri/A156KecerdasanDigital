@@ -1,9 +1,9 @@
 @media (max-width: 1000px) {
-    .header-right a{
+   .header-right a{
     padding-right: 15px;
   }
-    .top-wrapper {
-  height: auto;
+  .top-wrapper {
+    height: auto;
   }
   .top-wrapper h1 {
     font-size: 32px;
@@ -11,7 +11,7 @@
 }
 
 @media (max-width: 670px) {
-    .header-right {
+   .header-right {
     display: none;
   }
   
