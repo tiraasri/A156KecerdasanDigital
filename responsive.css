@@ -2,6 +2,9 @@
     .header-right a{
     padding-right: 15px;
   }
+    .top-wrapper {
+  height: auto;
+  }
   .top-wrapper h1 {
     font-size: 32px;
   }
@@ -14,6 +17,9 @@
   
   .menu-icon {
     display: block;
+  }
+  .top-wrapper {
+    background-size: cover;
   }
   .top-wrapper h1 {
     font-size: 24px;
