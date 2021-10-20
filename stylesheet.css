@@ -18,12 +18,11 @@ a {
 }
 .container {
     max-width: 1170px;
-    height: 280px;
     padding: 0 15px;
     margin: 0 auto;
 }
 .top-wrapper {
-    padding: 210px 0 100px 0;
+    padding: 210px 0 50px 0;
     background-image: url(background_image.png);
     background-size: cover;
     color: white;
@@ -31,21 +30,29 @@ a {
 }
 
 .top-wrapper h1{
-    font-size: 50px;
+    font-size: 45px;
     letter-spacing: 5px;
     margin-bottom: 20px;
 }
 .top-wrapper p {
-    margin-bottom: 3px;
     letter-spacing: 2px;
 
 }
+marquee {
+    text-align: center;
+    width: 400px;
+    font-family: serif;
+    color: white;
+    font-weight: bold;
+    margin-top: 50px;
+}
 .btn-wrapper {
-    margin: 10px 0;
+    text-align: center;
+    margin-top: 10px;
 }
 .order {
     background-color: red;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .btn {
     opacity: 0.8;
@@ -53,6 +60,7 @@ a {
     color: white;
     display: inline-block;
     border-radius: 4px;
+    text-align: center;
 }
 .btn:active {
     box-shadow: none;
@@ -70,7 +78,6 @@ header{
     position: fixed;
     top: 0;
     z-index: 10;
-    float: left;
 }
 .logo {
     font-family: 'ar decode';
@@ -84,18 +91,20 @@ header{
 }
 .header-right {
     float: right;
-    transition: all 0.5s;
-
+    margin-right: -25px;
+}
+.header-right li{
+    float: left;
 }
 .header-right a:hover {
     color: orange;
 }
 .header-right a {
-    float: left;
     line-height: 65px;
     padding: 0 25px;
     color: white;
     display: block;
+    transition: all 0.5s;
 }
 .menu-icon {
     color: white;
