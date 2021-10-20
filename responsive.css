@@ -1,0 +1,10 @@
+@media (max-width: 1000px) {
+
+}
+
+@media (max-width: 670px) {
+    /* Tentang Section */
+    .content_tentang .deskripsi_Tentang {
+        width: 90%;
+    }
+}
