@@ -80,12 +80,9 @@ header{
     top: 0;
     z-index: 10;
 }
-.logo {
-    font-family: 'ar decode';
-    font-size: 40px;
-    line-height: 65px;
-    color: white;
-    font-style: bold;
+.logo img {
+    height: 65px;
+    
 }
 .header-left {
     float: left;
